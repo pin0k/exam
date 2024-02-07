@@ -1,25 +1,31 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
 $aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/index.php", 
+		Array(), 
+		Array("IMG"=>"/local/templates/exam1/img/spr/btn-home.png"), 
+		"" 
+	),
 	Array(
 		"Компания", 
 		"company/", 
 		Array(), 
-		Array(), 
+		Array("TEXT"=>"текст для пункта Компания"), 
 		"" 
 	),
 	Array(
 		"Новости", 
 		"news/", 
 		Array(), 
-		Array(), 
+		Array("COLOR"=>"color-red"), 
 		"" 
 	),
 	Array(
-		"Продукция", 
+		"Каталог", 
 		"products/", 
 		Array(), 
-		Array(), 
+		Array("COLOR"=>"color-green"), 
 		"" 
 	),
 	Array(
@@ -30,8 +36,29 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"contacts/", 
+		"Партнерам", 
+		"/partneram/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/rew/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поиск", 
+		"/search/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Опросы", 
+		"/ask/", 
 		Array(), 
 		Array(), 
 		"" 
